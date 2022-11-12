@@ -1,8 +1,15 @@
 # CRX-Project
+Hello all!
+This is my first ever big project I will be making on Python!
 
-This is my first ever professional prjoect entirley made by python!
+My goal is to be able to be in the area of my university campus and have a twitter bot automatically send me a tweet to ask if i want to have an order placed at the loal timhortons.
 
-I Want to complete this project by the end of 2022 and ill slowly add onto this more and more
+Why would you even make this... its so extra...
 
-so far i have a rough idea of what i have to do but i just need to gather all my thoughts together and build it
+Well its because I really hate the long lines and i always forget to order my stuff in advanced too, plus i wanna get my ahnds on some api Work!
 
+Change Log:
+
+2022-11-11:
+- Created script to track location of my iphone using an api called pyicloud.
+-The cordinates of my iphone will be detetced once i run the script
