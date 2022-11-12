@@ -1,1 +1,1 @@
-number = '+16134047313'
+number = ############## Use personal number from local text file
