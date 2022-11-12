@@ -1,5 +1,5 @@
 from pyicloud import PyiCloudService
-api = PyiCloudService('mohparrot@icloud.com', 'Oscardude1$')
+api = PyiCloudService(#USERNAME,PASSWORD) #ADD LOCAL TEXT FILE TO HIDE THIS!!!!!!
 if api.requires_2fa:
     print("Two-factor authentication required.")
     code = input("Enter the code you received of one of your approved devices: ")
