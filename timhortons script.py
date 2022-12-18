@@ -36,6 +36,9 @@ large_size_button=wd.find_element('xpath','//*[@id="Size-selection-content"]/for
 large_size_button.click()
 add_to_cart_button=wd.find_element('xpath','//*[@id="main"]/div/div/span/div[2]/div[2]/div/div[3]/button')
 add_to_cart_button.click()
+checkout_button = wd.find_element('xpath','//*[@id="root"]/div/div/div/div/div[3]/div[2]/div[1]/div/div[4]')
+checkout_button.click()
+
 time.sleep(100)
 
 
