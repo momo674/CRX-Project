@@ -20,7 +20,7 @@ menu_button.click()
 
 address_button = wd.find_element('xpath', '//*[@id="downshift-0-input"]')
 address_button.click()
-address_button.send_keys('University of Ottawa, Laurier Avenue East, Ottawa, ON, Canada')
+address_button.send_keys('221 Kingswell Street')
 address_button.send_keys(Keys.ESCAPE)
 store_location_button= wd.find_element('xpath', '//*[@id="tabpanel-0"]/div/div[1]/div/div')
 store_location_button.click()
@@ -38,8 +38,13 @@ add_to_cart_button=wd.find_element('xpath','//*[@id="main"]/div/div/span/div[2]/
 add_to_cart_button.click()
 checkout_button = wd.find_element('xpath','//*[@id="root"]/div/div/div/div/div[3]/div[2]/div[1]/div/div[4]')
 checkout_button.click()
+sign_in_top_button = wd.find_element('xpath','//*[@id="tab-1"]')
+sign_in_top_button.click()
+email_type_box_button= wd.find_element('xpath','//*[@id="floating-label-input-65"]')
+email_type_box_button.click()
+email_type_box_button.send_keys('mohparrot@gmail.com')
 
 time.sleep(100)
 
 
-#testing
+#goes up to email sign in page
