@@ -7,6 +7,7 @@ My goal is to be able to be in the area of my university campus and have a twitt
 Why would you even make this... its so extra...
 
 Well its because I really hate the long lines and i always forget to order my stuff in advanced too, plus i wanna get my ahnds on some api Work!
+I first plan to make this project work for my own personal needs then I want to alter my work to allow anyone to use it!
 
 Change Log:
 
