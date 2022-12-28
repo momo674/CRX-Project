@@ -17,3 +17,11 @@ Change Log:
 2022-12-17
 HELLO ALL IT HAS BEEN A WHILE!
 I have been studying very hard on my exams and i havent had the time to really work on my project. However, i have been slowly revamping the prject and the plan i have should be fully completed over my winter break! I'm revamping everything after brainstorming very hard for a long time!
+
+2022-12-28
+I have been stuck for a while on what to do with the coordinate i was able to get from my location tracker.
+I then did the following:
+  - I created a custom map omn google maps that is the area where i would like my program to be executed
+  - I then created a function that takes the point from the iPhone location tracker (or any point as a parameter) 
+  - if the function returns true, then the main timhortons autobot script will execute.
+ 
