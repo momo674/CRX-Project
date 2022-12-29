@@ -42,7 +42,7 @@ sign_in_top_button = wd.find_element('xpath','//*[@id="tab-1"]')
 sign_in_top_button.click()
 email_type_box_button= wd.find_element('xpath','//*[@id="floating-label-input-65"]')
 email_type_box_button.click()
-email_type_box_button.send_keys('mohparrot@gmail.com')
+email_type_box_button.send_keys("EMAIL OF OWN USE") #use own email
 
 time.sleep(100)
 
